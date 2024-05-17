@@ -11,10 +11,8 @@ int main() {
     printf("2. Paper\n");
     printf("3. Scissors\n");
 
-    int  playing = 1; // Start the game initially
-
+    int  playing = 1; 
     while (playing) {
-      // int score = 0;
         int choice;
         printf("Do you want to play the game? (1 for yes, 0 for no): ");
         scanf("%d", &playing);
@@ -71,9 +69,7 @@ int main() {
                 printf("Computer wins!\n");
             }
         }
-      // printf("Your final score %d \n", score);
-      
-    }
+          }
     
     printf("Thanks for playing!\n");
 
